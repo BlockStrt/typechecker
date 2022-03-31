@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;1,100&family=Kanit:ital,wght@0,200;1,100&family=Libre+Franklin:ital,wght@0,100;0,200;0,400;0,900;1,200;1,500;1,700;1,900&family=Roboto+Serif:ital,wght@1,300;1,700&display=swap');
+
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #c98411;
+    color: white;
+    margin: 0 0 0 280px;
+    font-size: 2rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+section.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right:1px solid rgba(255, 255, 255, 0.1) ;
+    height: 100vh;
+    width: 235px;
+    background-color: #feb950;
+
+    padding: 40px;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+div.option{
+    margin: 20px 0 0 0;
+}
+div.option-checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label{
+    display: block;
+    margin: 0 0 0 5px;
+}
+label span{
+    float: right;
+    font-style: italic;
+}
+
+input[type="text"]{
+    width: 100%;
+    background-color: #757575;
+    border: none;
+    color: white;
+    padding: 5px 7px 5px 7px;
+}
+input[type="range"]{
+    width: 100%;
+}
+
+textarea.output{
+    font-size: 40px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: none;
+    min-height: 100vh;
+    padding: 40px;
+}
+select{
+    width: 100%;
+    height: 50px;
+}
+
+div.colors{
+    display: flex;
+    cursor: pointer;
+}
+
+div.colors div{
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgba(255,255,255,0.25);
+    border-radius: 50%;
+    margin: 5px 10px 0 0;
+    transition: border 0.25s;
+}
+div.colors div.selected{
+    border: solid pink 5px;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+input[type="checkbox"]:checked{
+    background-color: white;
+}

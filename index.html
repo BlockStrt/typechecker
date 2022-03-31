@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TypeChecker</title>
+</head>
+<body>
+   <section class="menu"> 
+       <h1>
+           Type Checker
+       </h1>
+
+        <div class="option">
+           <label>Your Text</label>
+           <input type="text" name="sentence" value="">
+        </div>
+
+        <div>
+            <label>TypeFace</label>
+            <select name="typeface">
+                <option value="Fira Sans Condensed">Fira Sans Condensed</option>
+                <option value="Kanit">Kanit</option>
+                <option value="Libre Franklin">Libre Franklin</option>
+                <option value="Roboto Serif">Roboto Serif</option>
+            </select>
+        </div>
+
+        <div class="option">
+            <label> Type Size <span class="typesize-output">64px</span></label>
+            <input type="range" name="typesize" min="12" max="200" value="64">
+        </div>
+
+        <div class="option">
+            <label>Font Weight <span class="fontweight-output">400</span></label>
+            <input type="range" min="100" max="900" value="400" step="100" name="fontweight">
+        </div>
+
+        <div class="option">
+            <label>Leading <span class="lineheight-output">1.5</span></label>
+            <input type="range" min="0.75" max="2.5" value="1.5" name="lineheight" step=0.25>
+        </div>
+
+        <div class="option option-checkbox">
+            <label>italic</label>
+            <input type="checkbox" name="italic">
+        </div>
+        <div class="option">
+            <label>Colors</label>
+            <div class="colors">
+                <div style="background-color: aqua; color: white;" class="selected">a</div>
+                <div style="background-color: bisque; color: red;">a</div>
+                <div style="background-color: chartreuse; color:black;">a</div>
+                <div style="background-color: pink; color: yellow;">a</div>
+            </div>
+        </div>
+
+   </section>
+
+   <textarea class="output">Text here, Pick a color, Change Font Etc.</textarea>
+</body>
+<script src="main.js"></script>
+</html>
