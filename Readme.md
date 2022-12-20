@@ -17,7 +17,7 @@
 
 ### Links
 
-- Solution URL: (https://github.com/BlockStrt)
+- Solution URL: (https://blockstrt.github.io/typechecker/)
 
 
 ### Built with
